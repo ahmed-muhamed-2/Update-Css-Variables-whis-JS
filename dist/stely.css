@@ -1,0 +1,19 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+  }
+  img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+  }
+  body{
+    background: #212121;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #fff;
+  }
+  .h2{
+    color: var(--base);
+  }
